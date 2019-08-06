@@ -1,0 +1,8 @@
+Theory/*/*.aux
+Theory/*/*.log
+Theory/*/*.nav
+Theory/*/*.out
+Theory/*/*.synctex.gz
+Theory/*/*.toc
+Theory/*/*.snm
+*.swp
