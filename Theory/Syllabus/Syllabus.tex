@@ -97,9 +97,9 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 \begin{document}
 
-\title{CGeIHC \\ Syllabus-2020-1}
+\title{Computación Gráfica Avanzada \\ Syllabus-2020-1}
 
-\author{M.C. Reynaldo Martell Avila, Grupo \textnumero{2} , Lunes y Miércoles 13:00 - 15:00}
+\author{M.C. Reynaldo Martell Avila, Grupo \textnumero{1} , Martes y Jueves 13:00 - 14:30}
 
 \date{\today}
 
@@ -107,100 +107,101 @@ bindingoffset=0mm, top=20mm,bottom=20mm}
 
 \section*{Temario}
 
-Introducción a la materia.\textbf{(5 de Agosto)}
+Introducción a la materia.\textbf{(6 de Agosto)}
 \begin{legal}
-	\item Introducción a la computación Gráfica. \textbf{(5 y 7 de Agosto)}
+	\item Introducción a OpenGL. \textbf{(6 de Agosto)}
 	\begin{legal}
-		\item Introducción Histórica.
+		\item Introducción e Historia de OpenGL 3.3. \textbf{(8 de Agosto)}
+		\item Integración de librerías para el desarrollo con OpenGL 3.3.
 		\begin{legal}
-			\item Introducción a la computación gráfica.
-			\item Áreas de desarrollo de la Computación Gráfica
-			\item Introducción a OpenGL.
-		\end{legal}
-		\item El Software gráfico \textbf{(7 de Agosto)}
-		\begin{legal}
-			\item Hardware y software gráfico.
+			\item Integración de GLEW y GLFW para la creación de una ventana con
+OpenGL 3.3.
+			\item Manejo de eventos con GLFW.
 		\end{legal}
 	\end{legal}
-	\item Pipeline de renderizado. 
+	\item OpenGL 3.3 \textbf{(13, 15 y 20 Agosto)}
 	\begin{legal}
-		\item Pipeline de OpenGL. \textbf{(12 de Agosto)}
-		%\item Presentación de código base. \textbf{(14 de Agosto)}
-		\item Transformaciones Geométricas.  \textbf{(14 y 19 de Agosto)}
-		\begin{legal}
-			\item Coordenadas Homogéneas.
-			\item Representación Matricial de transformaciones.
-			\item Composición de transformaciones.
-		\end{legal}
-		\item Espacios coordenados. \textbf{(21 de Agosto)}
-		\item Proyecciones. \textbf{(21 y 26 de Agosto)}
-		\begin{legal}
-			\item Proyección ortogonal.
-			\item Proyección en perspectiva.
-			\item Cámara sintética.
-		\end{legal}
-		Presentación de código base \textbf{(26 de Agosto)}
-		\item Recorte \textbf{(28 Agosto y 2 de Septiembre)}
-		\begin{legal}
-			\item Recorte de puntos.
-			\item Recorte de Liang Barsky
-			\item Recorte de Cohen-Shuterland
-		\end{legal}
+		\item Pipeline de renderizado.
+		\item Primer programa con OpenGL 3.3
+		\item VAO y VBO
+		\item Índices.
+		\item Shaders.
+		\item Transformaciones.
 	\end{legal}
-	\item Modelado geométrico y Jerárquico. \textbf{(4 de Septiembre)}
-	\\ Presentación de código modelado Geométrico\textbf{(9 Septiembre)}
-	\item Dibujo de primitivas en 2D. \textbf{(11 y 18 de Septiembre)}
+	\item Texturizado Avanzado Parte 1. \textbf{(22 y 27 Agosto)}
 	\begin{legal}
-		\item Algoritmo de Bresenham para líneas.
-		\item Algoritmo de Bresenham para circulos.
+		\item Texturizado shaders.
+		\item Multi-texturas.
 	\end{legal}
-	\textbf{Primer examen parcial. (18 de Septiembre)} \\
-	\textbf{Revisión Primer examen parcial. (23 de Septiembre)}
-	\item Texturizado \textbf{(25 de Septiembre)}
+	\item Animación Avanzada y ambientes interactivos Parte 1. \textbf{(3 y 5 de
+Septiembre)}
 	\begin{legal}
-		\item Filtering.
-		\item Wrapping.
-		\item Mipmaps.
+		\item Proyección Ortogonal, perspectiva, puerto de Vista.
+		\item Cámaras.
+		\item Carga de modelos con Assimp.
 	\end{legal}
-	\item Modelos de color e iluminación. \textbf{(2, 7, 9 y 14 de Octubre)}
+	\item Iluminación Avanzada Parte 1. \textbf{(10 febrero, 12 y 17 Septiembre)}
 	\begin{legal}
-		\item Modelos de color.
-		\item Iluminación de Gouraud y Phong.
-		\item Iluminación tipo de luces.
-		\item Iluminación global (Ray tracing).
-		\item Presentación de código de Modelos e iluminación.
+		\item Iluminación Básica.
+		\item Materiales.
+		\item Mapas de iluminación.
+		\item Tipos de luces.
 	\end{legal}
-	\item Principios de animación. \textbf{(16, 21, 23, 28 de Octubre)}
+		\textbf{Examen 19 Septiembre}
+	\item Texturizado Avanzado Parte 2. \textbf{(24 y 26 Septiembre)}
 	\begin{legal}
-		\item Animación por cinemática directa.
-		\item Animación por cinemática inversa.
-		\item Animación Key Frames.
+		\item Texturas 3D.
+		\item Cube Mapping. Reflexión y Refracción
+		\item Bump mapping.
 	\end{legal}
-	\item Interfaces de usuarios \textbf{(30 de Octubre, 4, 6, 11 de Noviembre)}
+	\item Colisiones. \textbf{(1, 3 y 8 de Octubre)}
 	\begin{legal}
-		\item Antecedentes órganos sensoriales.
-		\item Realidad Virtual.
-		\item Interacción Humano Computadora.
-		\item Interfaces de usuarios.
-		\item Presentación de código y ejemplos con Kinect.
+		\item Colisión linea vs linea.
+		\item Colisión caja vs punto.
+		\item Colisión caja vs caja.
+		\item Colisión esfera vs esfera.
+		\item Colisión esfera vs plano.
+		\item Colisión esfera vs caja.
+		\item Colisión rayo vs esfera.
+		\item Colisión caja vs rayo.
 	\end{legal}
-	\textbf{Segundo examen parcial. 13 de Noviembre}
-	\\ \textbf{Entrega del proyecto. 27 de Noviembre }
-	\\ \textbf{Examen Final. 2 de Diciembre}
+	\item Animación Avanzada y ambientes interactivos Parte 2. \textbf{(10, 15, 17 y 22 de Octubre)}
+	\begin{legal}
+		\item Picking.
+		\item Audio con OpenAl.
+		\item Partículas.
+		\item 
+	\end{legal}
+	\item OpenGL avanzado. \textbf{(24, 39, 31 de Octubre y 5 de Noviembre)}
+	\begin{legal}
+		\item Depth buffer
+		\item Stencil buffer.
+		\item Blending.
+		\item Anti aliasing.
+	\end{legal}
+	\item Shadow mapping.
+	\item Iluminación Avanzada Parte 2. \textbf{(7, 12 , 14 y 19 de Noviembre)}
+	\begin{legal}
+		\item Bloom
+		\item Radiosidad
+		\item Bling Phong
+	\end{legal}
+	\textbf{Segundo examen parcial. 21 de Noviembre}
+	\\ \textbf{Entrega del proyecto. 28 de Noviembre }
+	\\ \textbf{Examen Final. 3 de Diciembre}
 	
 \end{legal}
 
 \section*{EVALUACIÓN}
 
 \begin{itemize}
-	\item Exámenes.	35 \%
+	\item Exámenes.	40 \%
 	\begin{itemize}
 		\item Parcial 1
 		\item Parcial 2
 	\end{itemize}
-	\item Proyecto 35 \%
-	\item Laboratorio 20 \%
-	\item Tareas e investigaciones 10 \%
+	\item Proyecto 40 \%
+	\item Tareas e investigaciones 20 \%
 \end{itemize}
 
 \section*{EVALUACIÓN}
@@ -223,6 +224,8 @@ OpenGL Version
 4.3, The Khronos Group, Eighth Edition.
 	\item David Wolff, OpenGL 4.0 Shading Language Cookbook, Packt publishing,
 2011.
+	\item Christer Ericson, Real-Time Collision Detection, Sony Computer
+Entertainment America.
 \end{itemize}
 
 \end{document}
